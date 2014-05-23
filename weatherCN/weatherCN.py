@@ -16,7 +16,7 @@ CurrentWeatherUrl = "http://www.weather.com.cn/data/sk/%s.html"
 configFile = 'weather.conf'
 cityListFile = 'cityList.xml'
 
-version = '0.1'
+version = '0.1.2'
 
 
 def cacheCityList():
@@ -68,7 +68,7 @@ def getWeather(cityId):
     windDirection:风向
     windStrength:风力
     temp:当前温度
-    SD:未知（看不出何意）
+    SD:湿度
 
     参数：cityId 城市Id，由getCity返回
     返回值：包含天气情况的dict数据

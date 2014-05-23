@@ -2,4 +2,4 @@
 # encoding: utf-8
 
 __Auther__ = 'Xana Hopper'
-__Version__ = '0.1'
+__Version__ = '0.1.2'
